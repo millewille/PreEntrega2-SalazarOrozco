@@ -1,0 +1,484 @@
+@font-face {
+    font-family: "bold";
+    src: url("./fonts/Barlow/Barlow-Bold.ttf");
+}
+
+@font-face {
+    font-family: "extra_bold";
+    src: url("./fonts/Barlow/Barlow-ExtraBold.ttf");
+}
+
+@font-face {
+    font-family: "regular";
+    src: url("./fonts/Barlow/Barlow-Regular.ttf");
+}
+
+@font-face {
+    font-family: "semi_bold";
+    src: url("./fonts/Barlow/Barlow-SemiBold.ttf");
+}
+
+body{
+    margin: 0px;
+}
+
+.homePreviews{
+    width: 100%;
+    height: 505px;
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    
+}
+
+#homePreview1{
+    background-color: #F3F3F8;
+}
+
+@keyframes imageSolo1{
+    0% {opacity: 0%;}
+    100% {opacity: 100%;}
+}
+
+@keyframes imageSolo1{
+    0% {width: 0%;}
+    100% {width: 100%;}
+}
+
+.imageSolo1{
+    height: 505px;
+    animation-name: imageSolo1;
+    animation-fill-mode: forwards;
+    animation-timing-function: ease-in-out;
+    animation-duration: 1.8s;
+    overflow: hidden;
+}
+.masthead{
+    background-size: cover;
+    height: 505px;
+}
+
+@keyframes bannerHome{
+    0% {opacity: 0%;}
+    100% {opacity: 100%; transform:translateX(50%);}
+}
+
+.bannerHome{
+    display: flex;
+    flex-direction: column;
+    margin: auto 0;
+    text-align: center;
+    align-items: center;
+    animation-name: bannerHome;
+    animation-fill-mode: forwards;
+    animation-timing-function: ease-in-out;
+    animation-duration: 1.8s;
+    margin-right: 50%;
+}
+
+#gridTwoPositionsBanner1{
+    grid-column: 2 / span 2;
+}
+
+#gridTwoPositionsBanner2{
+    grid-column: 1 / span 2;
+}
+
+.previewTitles{
+    font-family: bold;
+    margin: 0;
+    font-size: 50px;
+    
+}
+
+.previewSubtitles{
+    font-family: regular;
+    font-size: 20px;
+    margin-top: 6px;
+}
+
+#previewButton1{
+    margin-top: 40px;
+}
+
+.previewButtons1{
+    height: 48px;
+    width: 184px;
+    background-color: black;
+    color: white;
+    border: none;
+    font-size: 16px;
+    font-family: regular;
+    cursor: pointer;
+}
+
+.previewButtons1:hover{
+    background-color: #3E3E51;
+}
+
+.imageSolo2{
+    animation-name: imageSolo2;
+    animation-fill-mode: backwards;
+    animation-timing-function: ease-in-out;
+    animation-duration: 1s;
+    animation-delay: 1s;
+    overflow-x: hidden;
+}
+
+@keyframes imageSolo2{
+    0% {opacity: 0%;}
+    100% {opacity: 100%;}
+}
+
+#previewButton2{
+    margin-top: 30px;
+}
+
+.wrapper {
+    width: 100%;
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    gap: 0px;
+  }
+
+  .previewGrid1 {
+    display: flex;
+    flex-direction: column;
+    text-align: center;
+    grid-column: 1;
+    place-content: center;
+    width: 100%;
+    height: 505px;
+    background-image: url('./imgs/shadow1.jpg');
+    background-size: cover;
+  }
+
+  .previewGrid2 {
+    display: flex;
+    flex-direction: column;
+    text-align: center;
+    grid-column: 2;
+    place-content: center;
+    width: 505px;
+    height: 505px;
+    background-image: url('./imgs/shadow2.jpg');
+    background-size: cover;
+  }
+
+  .previewGrid3 {
+    display: flex;
+    flex-direction: column;
+    text-align: center;
+    grid-column: 3;
+    place-content: center;
+    width: 100%;
+    height: 505px;
+    background-image: url('./imgs/shadow3.jpg');
+    background-size: cover;
+}
+
+.gridTitles{
+    margin-bottom: 32px;
+    font-family: bold;
+    font-size: 32px;
+    color: white;
+}
+
+.arrowButtonGrid{
+    font-size: 16px;
+    font-family: semi_bold;
+    color: white;
+    text-decoration: none;
+    display: flex;
+    margin: 0 auto;
+    border-bottom: 2px solid white;
+    padding-bottom: 12px;
+}
+
+.arrowButtonGrid>img {
+    margin-left: 10px;
+    margin-top: 2px;
+}
+
+/* -------- NAV -------- */
+
+nav{
+    height: 96px;
+    display: flex;
+    align-items: center;
+    padding-left: 104px;
+    padding-right: 104px;
+    justify-content: space-between;
+}
+
+#navMenu, #navIcons{
+    display: flex;
+
+}
+
+.liNavMenu{
+    margin-left: 32px;
+    list-style: none;
+    font-family: semi_bold;
+    font-size: 20px;
+}
+
+.liNavMenu>a{
+    text-decoration: none;
+    color: black;
+}
+
+.liNavIcons{
+    margin-left: 28px;
+    list-style: none;
+}
+
+body{
+    margin: 0px;
+}
+
+/* -------- PORTFOLIO -------- */
+
+.imgProduct1{
+    width: 505px;
+    height: 505px;
+}
+
+.imgProduct2{
+    width: 505px;
+    height: 505px;
+}
+
+.imgProduct3{
+    width: 505px;
+    height: 505px;
+}
+
+.imgProduct4{
+    width: 505px;
+    height: 505px;
+}
+
+.imgProduct5{
+    width: 505px;
+    height: 505px;
+}
+
+.imgProduct6{
+    width: 505px;
+    height: 505px;
+}
+
+#gridProducts{
+    width: 1050px;
+    margin: 0 auto;
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+    place-items: center;
+
+}
+
+#gridProducts>div{
+    height: 607px;
+}
+
+.divTextProduct{
+    font-family: regular;
+    margin-top: 30px;
+}
+
+h1{
+    font-size: 40px;
+    margin-bottom: 100px;
+}
+
+section{
+    padding-top: 70px;
+    padding-bottom: 70px;
+}
+
+.titlePortfolio{
+    text-align: center;
+}
+
+/* -------- NEW -------- */
+
+section{
+    padding-top: 70px;
+    padding-bottom: 70px;
+}
+
+.titlePortfolio{
+    text-align: center;
+}
+
+.bannerWhatsNew{
+    width: 1304px;
+    height: 650px;
+    margin-bottom: 30px;
+}
+
+.bannerWithDescription{
+    width: 1304px;
+}
+
+.textBanner{
+    font-family: regular;
+    font-size: 16px;
+}
+
+section{
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+}
+
+#gridNews{
+    margin-top: 70px;
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+    gap: 42px;
+}
+
+.newProduct1{
+    height: 630px;
+    width: 630px;
+}
+
+.newProduct2{
+    height: 630px;
+    width: 630px;
+}
+
+.newProduct3{
+    height: 630px;
+    width: 630px;
+}
+
+.newProduct4{
+    height: 630px;
+    width: 630px;
+}
+
+/* -------- ABOUT -------- */
+
+.aboutSection{
+    padding-top: 70px;
+    padding-bottom: 70px;
+    gap: 40px;
+    display: flex;
+    align-items: top;
+    justify-content: center;
+}
+
+.aboutBanner{
+    width: 910px;
+    height: 435px;
+}
+
+p{
+    margin-top: 35px;
+}
+
+#title{
+    font-family: bold;
+    font-size: 40px;
+    
+}
+
+.aboutParagraph{
+    font-family: regular;
+    font-size: 16px;
+}
+
+.aboutMeText{
+    width: 354px;
+}
+
+/* -------- CONTACT -------- */
+
+section{
+    padding-top: 70px;
+    padding-bottom: 70px;
+}
+
+.titleContactMe{
+    text-align: center;
+}
+
+#divForm{
+    width: 100%;
+}
+
+form{
+    width: 498px;
+    display: flex;
+    margin: 0 auto;
+    flex-direction: column;
+}
+
+label{
+    text-align: left;
+    font-family: semi_bold;
+    font-size: 14px;
+    margin-bottom: 8px;
+}
+
+input, textarea{
+    width: 460px;
+    font-family: regular;
+    font-size: 16px;
+    padding: 18px;
+    border-radius: none;
+    border-color: black;
+    border: 2px solid;
+}
+
+input:focus, textarea:focus {
+    outline: #FF6A39;
+    border: 2px #FF6A39 solid;
+}
+
+#submitButton{
+    margin-top: 40px;
+    width: 498px;
+    background-color: black;
+    color: white;
+    border: none;
+    cursor: pointer;
+}
+
+#submitButton:hover{
+    background-color: #3E3E51;
+}
+
+.sectionContact{
+    background-color: #F3F3F8;
+}
+
+/* -------- FOOTER -------- */
+
+footer{
+    height: 228px;
+    padding-left: 104px;
+    padding-right: 104px;
+}
+
+#socialMediaFooter{
+    list-style: none;
+    display: flex;
+}
+
+.footerTop, .footerBottom{
+    display: flex;
+    justify-content: space-between;
+    font-family: regular;
+}
+
+.iconInstagramFooter{
+    margin-left: 16px;
+}
+
+.footerTop{
+    margin-top: 64px;
+    margin-bottom: 30px;
+}
